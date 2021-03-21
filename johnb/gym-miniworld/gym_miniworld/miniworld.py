@@ -1332,7 +1332,7 @@ class MiniWorldEnv(gym.Env):
             img = self.render_top_view(self.vis_fb)
         img_width = img.shape[1]
         img_height = img.shape[0]
-
+    
         if mode == 'rgb_array':
             return img
 

@@ -2,6 +2,7 @@ import numpy as np
 import math
 from ..miniworld import MiniWorldEnv, Room
 from ..entity import Box
+from ..params import DEFAULT_PARAMS
 from gym import spaces
 
 class Hallway(MiniWorldEnv):
@@ -10,9 +11,12 @@ class Hallway(MiniWorldEnv):
     at the end of a hallway
     """
 
-    def __init__(self, length=12, **kwargs):
+    def __init__(self, length=12, turn_step = 1, **kwargs):
         assert length >= 2
         self.length = length
+
+        params = DEFAULT_PARAMS.no_random()
+        params.set("turn_step", turn_step)
 
         super().__init__(
             max_episode_steps=250,
