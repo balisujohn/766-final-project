@@ -1,0 +1,4 @@
+images
+johnb/gym-miniworld/gym_miniworld/__pycache__
+johnb/gym-miniworld/gym_miniworld/envs/__pycache__
+*.zip
