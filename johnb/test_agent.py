@@ -15,12 +15,12 @@ import numpy as np
 import time
 
 
-env = gym.make('MiniWorld-Hallway-v0', turn_step = 5)
+env = gym.make('MiniWorld-Hallway-v0')
 
 #odel = DQN(CnnPolicy, env, verbose=1)
 #model.learn(total_timesteps=100000)
 
-model = DQN.load("DQNCNNHALLWAY")
+model = DQN.load("DQNCNNMAZE_EXPO")
 
 
 result_string = "" 

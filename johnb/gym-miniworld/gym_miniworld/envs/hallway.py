@@ -19,7 +19,7 @@ class Hallway(MiniWorldEnv):
         params.set("turn_step", turn_step)
 
         super().__init__(
-            max_episode_steps=250,
+            max_episode_steps=100,
             **kwargs
         )
 
