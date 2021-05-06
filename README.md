@@ -1,5 +1,5 @@
 ## ORB-SLAM3 version 
-Melica
+Milica
 
 ## Modified Miniworld DQN Baseline
 John
