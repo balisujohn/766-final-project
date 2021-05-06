@@ -1,7 +1,7 @@
 ## ORB-SLAM3 version 
 Melica
 
-## pySLAM version
+## Modified Miniworld DQN Baseline
 John
 
 ## ORB-SLAM2 version
